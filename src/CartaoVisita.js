@@ -16,7 +16,7 @@ const CartaoVisita = () => {
       {/* QR Code */}
       <Row className="mb-5">
         <Col>
-          <h4>Pagamento via Pix</h4>
+          <h4>Pagamento via  piPix</h4>
           <QRCodeSVG value="chave-pix-da-loja" size={150} bgColor="#fff" fgColor="#000" />
         </Col>
       </Row>
