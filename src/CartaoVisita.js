@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Button, InputGroup, Input } from "reactstrap";
-import GerarQrPagina from "./components/GerarQrpagina";
+import GaleriaCarrossel from "./components/GaleriaCarrossel";
 import { QRCodeSVG } from "qrcode.react";
 
 const CartaoVisita = () => {
@@ -48,8 +48,15 @@ const CartaoVisita = () => {
             </Button>
           </InputGroup>
         </Col>
-      </Row> 
-      <GerarQrPagina />
+      </Row>
+
+      {/* Carrossel de Imagens */}
+      <Row>
+        <Col>
+          <GaleriaCarrossel />
+        </Col>
+      </Row>
+      
     </Container>
   );
 };
