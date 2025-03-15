@@ -56,7 +56,6 @@ const CartaoVisita = () => {
           <GaleriaCarrossel />
         </Col>
       </Row>
-      
     </Container>
   );
 };
