@@ -56,8 +56,9 @@ const CartaoVisita = () => {
           <GaleriaCarrossel />
         </Col>
       </Row>
+
     </Container>
+    
   );
 };
-
 export default CartaoVisita;
